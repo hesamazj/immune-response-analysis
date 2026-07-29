@@ -2,10 +2,6 @@
 """
 load_data.py
 
-Initializes a SQLite database (cell_counts.db) with a normalized relational
-schema for immune cell population data and loads all rows from
-cell-count.csv into it.
-
 Schema
 ------
 projects        (project_id PK, project_name UNIQUE)

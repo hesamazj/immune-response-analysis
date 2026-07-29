@@ -4,25 +4,10 @@ analysis.py
 
 Part 2: Initial Analysis - Data Overview
 
-Answers Bob's question: "What is the frequency of each cell type in each
-sample?"
-
 For every sample, this script:
   1. Sums cell counts across all five populations to get total_count.
   2. Computes each population's relative frequency as a percentage of that
      sample's total_count.
-
-Output is a long/tidy table with one row per (sample, population):
-    sample, total_count, population, count, percentage
-
-Data is pulled directly from cell_counts.db (built by load_data.py), not
-from the raw CSV, so this reflects the single source of truth going
-forward.
-
-# NOTE: We deliberately query the database, not cell-count.csv, so this
-# analysis always reflects the current state of the data (e.g. corrections
-# or new samples loaded via load_data.py) rather than a potentially stale
-# CSV snapshot. This does mean load_data.py must be run first.
 
 Usage
 -----

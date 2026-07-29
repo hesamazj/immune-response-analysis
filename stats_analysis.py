@@ -4,10 +4,6 @@ stats_analysis.py
 
 Part 3: Statistical Analysis
 
-Answers Bob's question for his colleague Yah D'yada: which immune cell
-populations differ between miraclib responders and non-responders in
-melanoma patients, using PBMC samples only?
-
 Workflow
 --------
 1. Pull the tidy relative-frequency table (sample, total_count, population,
