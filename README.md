@@ -17,7 +17,7 @@ make dashboard   # launches the interactive Streamlit dashboard
 
 The Streamlit dashboard provides interactive exploration of immune cell populations with filters for disease condition, treatment, sample type, and immune cell population.
 
-![Dashboard overview](docs/images/dash_view.png)
+![Dashboard overview](./dash_view.png)
 
 ## Requirements
 
