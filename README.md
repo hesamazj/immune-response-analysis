@@ -137,10 +137,6 @@ scale, rather than needing a redesign:
   independently runnable, testable, and readable, and each writes its own
   output artifact (CSV and/or PNG) so results are inspectable without
   re-running the whole pipeline.
-- **SQL does the heavy lifting for filtering and joining** (population
-  counts, cohort filters, project/response/sex breakdowns), while pandas
-  handles the numeric transforms (percentages, statistical tests) that are
-  awkward to express in SQL. This keeps each layer doing what it's best at.
 - **`dashboard.py`** is a thin presentation layer on top of the same
   queries used in `analysis.py`/`stats_analysis.py`/`subset_analysis.py`,
   re-implemented with interactive filters (condition, treatment, sample
