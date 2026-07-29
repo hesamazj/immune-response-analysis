@@ -13,12 +13,7 @@ make dashboard   # launches the interactive Streamlit dashboard
 ```
 
 `make dashboard` starts a local server on port 8501. In Codespaces, use the
-"Ports" tab to open the forwarded 8501 port in your browser (set to Public
-visibility if you need external reviewers to access it).
-
-**Dashboard link:** _add your deployed/forwarded URL here before
-submission (e.g., Streamlit Community Cloud URL, or the Codespaces
-forwarded-port URL)._
+"Ports" tab to open the forwarded 8501 port in your browser.
 
 ## Requirements
 
