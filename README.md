@@ -15,6 +15,10 @@ make dashboard   # launches the interactive Streamlit dashboard
 `make dashboard` starts a local server on port 8501. In Codespaces, use the
 "Ports" tab to open the forwarded 8501 port in your browser.
 
+The Streamlit dashboard provides interactive exploration of immune cell populations with filters for disease condition, treatment, sample type, and immune cell population.
+
+![Dashboard overview](docs/images/dash_view.png)
+
 ## Requirements
 
 Python 3.9+ and the packages in `requirements.txt` (pandas, scipy,
